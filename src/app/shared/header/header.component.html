@@ -1,0 +1,36 @@
+<nav class="navbar navbar-light bg-light">
+    <span>
+      <button class="btn btn-icon">
+        <i class="material-icons">menu</i>
+      </button>
+      <!-- <button mat-icon-button>
+        <mat-icon aria-hidden="false" aria-label="Example home icon">menu</mat-icon>
+      </button> -->
+      <span>App Logo</span>
+    </span>
+    <span class="fill-remaining-space"></span>
+  
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <button class="btn btn-icon">
+          <i class="material-icons">settings</i>
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="btn btn-icon">
+          <i class="material-icons">help_outline</i>
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="btn btn-icon">
+          <i class="material-icons">person_outline</i>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button class="btn">
+          <i class="material-icons">exit_to_app</i>
+            Sign Out
+          </button>
+        </mat-menu>
+      </li>
+    </ul>
+  </nav>

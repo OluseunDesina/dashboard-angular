@@ -1,0 +1,13 @@
+<!-- Just an image -->
+<app-header></app-header>
+<div class="container-fluid wrapper">
+  <div class="d-flex flex align-items-stretch row gutter-2">
+    <div class="col-md-2 bg-light d-none d-md-block sidebar">
+      <app-sidebar></app-sidebar>
+    </div>
+    <main role="main" class=" bg-light col-md-9 ml-sm-auto col-lg-10">
+        <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>
+<app-footer></app-footer>
